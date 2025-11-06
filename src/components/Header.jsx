@@ -3,7 +3,7 @@ import { Menu } from 'lucide-react'
 
 const Header = () => {
     return (
-        <header className='header'>
+        <header id='home' className='header'>
             <div className='header-container'>
                 <div className='header-content'>
                     {/* Логотип */}

@@ -12,18 +12,19 @@ import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <div>
-    <Header />
-    <Girl/>
-    <ServicesSection/>
-    <Documentation/>
-    <Customer/>
-    <Room/>
-    <CustomersSection/>
-    <Carousell/>
-    <Faq/>
-    <Testion/>
-    <Footer/>
+    <div className="dark:bg-[#00113B] bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: "url('./src/assets/fon.png')" }}>
+      <Header />
+      <Girl />
+      <ServicesSection />
+      <Documentation />
+      <Customer />
+      <Room />
+      <CustomersSection />
+      <Carousell />
+      <Faq />
+      <Testion />
+      <Footer />
     </div>
   );
 };
