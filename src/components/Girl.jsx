@@ -1,5 +1,4 @@
 import React from 'react'
-import { ArrowRight } from 'lucide-react';
 
 const Girl = () => {
     return (
@@ -23,7 +22,7 @@ const Girl = () => {
                             <img src="src/assets/kryg.svg" alt="" className='layer-kryg' />
                         </div>
                     </div>
-                </div>
+                </div> 
             </div>
         </section>
     )

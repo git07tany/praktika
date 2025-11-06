@@ -6,6 +6,7 @@ import Room from './components/Room';
 import ServicesSection from './components/Services';
 import CustomersSection from './components/CustomersSection';
 import Testion from './components/Test';
+import Carousell from './components/Carousell';
 import Faq from './components/Faq';
 import Footer from './components/Footer';
 
@@ -19,11 +20,14 @@ const App = () => {
     <Customer/>
     <Room/>
     <CustomersSection/>
+    <Carousell/>
     <Faq/>
     <Testion/>
     <Footer/>
     </div>
   );
 };
+
+
 
 export default App;
